@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: square;
+  src: url(./files/Square.ttf);
+}
+@font-face {
+  font-family: squareo;
+  src: url(./files/Squareo.ttf);
+}
+
+body {
+  background-color: rgb(122, 7, 10);
+  background-image: url("./files/bg-contact.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #f2f2f2;
+  font-family: square;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.line {
+  background-color: #f2f2f2;
+}
+
+.title {
+  font-family: square;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 58px;
+  color: #f2f2f2;
+}
+
+.text {
+  font-family: square;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 20px;
+  color: #f2f2f2;
+}
+
+@media (max-width: 690px) {
+  .title {
+    font-size: 23px;
+    line-height: 58px;
+  }
+
+  .text {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 1800px) {
+  body {
+    background-size: 1800px;
+    max-width: 1800px;
+    margin: auto;
+    background-position: center;
+  }
+}
+
+@media (max-width: 240px) {
+  body {
+    min-width: 240px;
+  }
+}
+
+/*****Colors For Troubleshooting*****/
+
+/* header {
+  background-color: sandybrown;
+}
+.logo-container {
+  background-color: blue;
+}
+.logo {
+  background-color: paleturquoise;
+}
+.nav {
+  background-color: red;
+}
+.nav-links {
+  background-color: seagreen;
+}
+.nav-link {
+  background-color: fuchsia;
+}
+main {
+  background-color: gray;
+}
+.list-container {
+  background-color: cyan;
+}
+.list {
+  background-color: gold;
+}
+.introduction {
+  background-color: royalblue;
+}
+.icons {
+  background-color: darkgoldenrod;
+}
+.icon {
+  background-color: lawngreen;
+} */
